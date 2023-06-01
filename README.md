@@ -9,14 +9,14 @@
 <img width="375" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/8a359be0-245b-411a-8d3b-e8b133f1efe3">  
 <img width="375" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/832df3a0-aa9a-47b0-8b98-4541b1fb05b8">  
 <img width="376" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/de60af72-c0f0-45f3-b29b-285372aa399c">  
-<img width="341" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/d1d882c2-e934-4c36-b11c-4154c539f541"> 
-2. MNIST
+<img width="372" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/cb616c78-47e5-461d-8ba4-ba62b7519703">  
+2. MNIST  
 База данных MNIST состоит из нормализованных по размеру и расположенных
 в центре изображения фиксированного размера черно-белых образцов рукописных
 цифр. Датасет содержит 60000 изображений для обучения и тестовый набор из
 10000 экземпляров. Каждое изображение имеет размер 28×28 = 784 пикселя. 
-Примеры изображений, содержащихся в датасете MNIST приведены на Рис. 7.  
-<img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">  
+Примеры изображений, содержащихся в датасете MNIST приведены на Рис. 7.    
+<img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">    
 <img width="382" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/09fb2690-8b22-43a3-8dd7-8de4fd70e985">
 
 
