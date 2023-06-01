@@ -18,7 +18,11 @@
 10000 экземпляров. Каждое изображение имеет размер 28×28 = 784 пикселя. 
 Примеры изображений, содержащихся в датасете MNIST приведены на Рис. 7.    
 <img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">  
-<img width="382" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/09fb2690-8b22-43a3-8dd7-8de4fd70e985">
+Результаты применения распределенного
+алгоритма t-SNE к набору из 1000 экземпляров, взятых из тестовой выборки  
+![dist_test 1000 points 1000 steps perp = 15 eta = 200 PCA early = 8 0](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/69d154c5-ff18-4017-a15b-17e6179a3e97)  
+![dist_test 1000 points 1000 steps perp = 15 eta = 400 Random early = 12 0](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/a13d70e2-8152-48f4-a6ed-692eb7e78526)
+
 
 
 
