@@ -1,2 +1,8 @@
 # distributed-t-SNE
-<img width="345" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/54d4aeb0-17ab-4dda-a396-cf5eca45fd49">
+Реализация алгоритма t-SNE, позволяющая избежать хранения объема информации, квадратично зависящего от объема входных данных.
+Рассмотрим вложения, получающееся в результате работы распределенного
+алгоритма, а также t-SNE, реализованного в библиотеке scikit-learn. Тестирование проводилось на примере наборов точек, с заранее известным разделением на
+кластеры
+<img width="347" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/e34ba280-08de-4230-b3be-847aaa4909a2">
+<img width="742" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/8671fd89-5b2d-4218-b503-3875b8582690">
+
