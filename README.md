@@ -20,9 +20,12 @@
 <img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">  
 Результаты применения распределенного
 алгоритма t-SNE к набору из 1000 экземпляров, взятых из тестовой выборки  
+
 ![dist_test 1000 points 1000 steps perp = 15 eta = 200 PCA early = 8 0](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/69d154c5-ff18-4017-a15b-17e6179a3e97)  
+
 ![dist_test 1000 points 1000 steps perp = 15 eta = 400 Random early = 12 0](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/a13d70e2-8152-48f4-a6ed-692eb7e78526)
 
 
+![perp 15 eta 200 early 24 PCA](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/c320812d-a866-4d2a-872d-200e84b1d13f)
 
 
