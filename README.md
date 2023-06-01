@@ -16,7 +16,7 @@
 цифр. Датасет содержит 60000 изображений для обучения и тестовый набор из
 10000 экземпляров. Каждое изображение имеет размер 28×28 = 784 пикселя. 
 Примеры изображений, содержащихся в датасете MNIST приведены на Рис. 7.    
-<img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">    
+<img width="453" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/899bc5dc-f4df-4bba-ba93-77c26f9988fc">      
 <img width="382" alt="image" src="https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/09fb2690-8b22-43a3-8dd7-8de4fd70e985">
 
 
