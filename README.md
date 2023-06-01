@@ -11,5 +11,4 @@
 
 
 ![1 X](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/7a955e11-be45-424e-95c9-578b84d6a562)  
-![1 Y](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/3c7fef7b-ed97-4021-bf81-9c376f2abad5)
-![1 Y](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/4a63aa2b-8bda-43ec-a584-edf2969d449b)
+![1 Y](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/3c7fef7b-ed97-4021-bf81-9c376f2abad5) ![1 Y](https://github.com/Marchukova01/distributed-t-SNE/assets/90204625/4a63aa2b-8bda-43ec-a584-edf2969d449b)
