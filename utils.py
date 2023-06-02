@@ -68,4 +68,3 @@ def gradient_d(i, n, line_num, PQ, Y, dim_low, A, dY):
       nowY[:, j] = Y[:, i] - Y[:, j]
     dY[i, :] = np.sum(np.tile(PQ[line_num, :] * A[line_num, :], (dim_low, 1)) * (nowY),  1)
     return dY
-
