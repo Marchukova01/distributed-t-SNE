@@ -4,7 +4,7 @@ import utils
 import calc_probability
 
 
-def tsne(X, Y, y, n_samples, m_coord, dim_low, d, max_iter, n_steps, early_exaggeration, desired_perplexity, eta):
+def tsne(X, Y, n_samples, m_coord, dim_low, d, max_iter, n_steps, early_exaggeration, desired_perplexity, eta):
     initial_momentum = 0.5
     final_momentum = 0.8
     min_gain = 0.01
@@ -28,11 +28,6 @@ def tsne(X, Y, y, n_samples, m_coord, dim_low, d, max_iter, n_steps, early_exagg
     begin_line3 = int(n_samples * 3 / d)
     last_line3 = int(n_samples * 4 / d - 1)
     lines3 = last_line3 - begin_line3 + 1
-
-    line_num0 = 0
-    line_num1 = 0
-    line_num2 = 0
-    line_num3 = 0
 
     S0 = np.zeros(lines0)
     S1 = np.zeros(lines1)
@@ -107,17 +102,13 @@ def tsne(X, Y, y, n_samples, m_coord, dim_low, d, max_iter, n_steps, early_exagg
 
     for iter in range(max_iter):
 
-        Q0 = np.full((last_line0 - begin_line0 + 1, n_samples), 0)
-        Q1 = np.full((last_line1 - begin_line1 + 1, n_samples), 0)
-        Q2 = np.full((last_line2 - begin_line2 + 1, n_samples), 0)
-        Q3 = np.full((last_line3 - begin_line3 + 1, n_samples), 0)
-
         line_num0 = 0
         line_num1 = 0
         line_num2 = 0
         line_num3 = 0
 
         sum_Y = np.sum(np.square(Y), axis=0)
+
         num0 = -2. * np.dot(Y[:, begin_line0:last_line0 + 1].T, Y)
         num1 = -2. * np.dot(Y[:, begin_line1:last_line1 + 1].T, Y)
         num2 = -2. * np.dot(Y[:, begin_line2:last_line2 + 1].T, Y)
