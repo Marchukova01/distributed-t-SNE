@@ -15,7 +15,7 @@ early_exaggeration = 12.0
 desired_perplexity = 30.0
 initial_momentum = 0.5
 final_momentum = 0.8
-eta = 50 # learning_rate
+eta = 50 # learning rate
 min_gain = 0.01
 
 (train_X, train_y), (test_X, test_y) = mnist.load_data()
